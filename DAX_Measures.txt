@@ -1,0 +1,9 @@
+HR ANALYTICS DASHBOARD - DAX MEASURE
+
+Average Attendance %
+
+Average Attendance % =
+DIVIDE(
+    AVERAGE(HR_Data[AttendancePercentage]),
+    100
+)
